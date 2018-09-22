@@ -1,0 +1,45 @@
+.evh-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999999999999;
+    display: flex;
+    justify-content: center;
+}
+
+.evh-grid--col {
+    padding: 0 15px;
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid aqua;
+    border-top: 0;
+    border-bottom: 0;
+    border-right-width: 0;
+    position: relative;
+}
+
+.evh-grid--col:last-child {
+    border-right-width: 1px;
+}
+
+.evh-grid--col::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 1px;
+    height: 100%;
+    background-color: aqua;
+}
+
+.evh-grid--col::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 1px;
+    height: 100%;
+    background-color: aqua;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Ceicom Grid",
+  "version": "1.4",
+  "description": "Grid system from ceicom 1!",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "images/icon32.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
