@@ -1,2 +1,2 @@
 # grid-ceicom
-grid ceicom WIP!!
+Extensão do chrome com o grid da Ceicom - WIP
