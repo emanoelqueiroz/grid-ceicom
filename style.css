@@ -1,9 +1,11 @@
 .evh-grid {
     position: absolute;
+	pointer-events: none;
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
+	width: 1200px;
+    margin: 0 auto;
     z-index: 999999999999;
     display: flex;
     justify-content: center;
@@ -11,7 +13,7 @@
 
 .evh-grid--col {
     padding: 0 15px;
-    width: 100px;
+    width: 8.33333333%;
     box-sizing: border-box;
     border: 1px solid aqua;
     border-top: 0;
